@@ -1,6 +1,6 @@
 # MobileTestAutomationFramework
 
-Pre-requesities:
+##Pre-requesities:
 1. Make sure you have Node.js and appium node mudule installed
     
     `npm install -g appium`
@@ -17,8 +17,15 @@ Pre-requesities:
 <parameter name="chromeDriverPort" value="11012" />
 ```
 
-How to run the tests
+##How to run the tests
 - You can either run the **testNG.xml**
     
     or
 - Open the command line in the project directory and execute **mvn test** command
+
+##Running Tests in Parallel
+You can mentioned multiple test blocks with different devices configurations in the testNG.xml and it will start running on each device in a parallel mode
+
+##Test Input Source
+1. You can either provide the TestData in the TestDataFile.xlsx but simplying adding a new sheet and naming it exactly the same name as the respective @test Method and use the data provider which will pass the excel data directly to the test
+2. You can mention the testData in the config.properties file and fetch it
