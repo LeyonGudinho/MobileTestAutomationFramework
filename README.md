@@ -17,6 +17,10 @@
 <parameter name="chromeDriverPort" value="11012" />
 ```
 
+## Test Input Source
+1. You can either provide the TestData in the TestDataFile.xlsx but simplying adding a new sheet and naming it exactly the same name as the respective @test Method and use the data provider which will pass the excel data directly to the test
+2. You can mention the testData in the properties file created by the test method name then just use `loadProperties();` (with any params) and `getProperty();`
+
 ## How to run the tests
 - You can either run the **testNG.xml**
     
@@ -25,10 +29,6 @@
 
 ## Running Tests in Parallel
 You can mentioned multiple test blocks with different devices configurations in the testNG.xml and it will start running on each device in a parallel mode
-
-## Test Input Source
-1. You can either provide the TestData in the TestDataFile.xlsx but simplying adding a new sheet and naming it exactly the same name as the respective @test Method and use the data provider which will pass the excel data directly to the test
-2. You can mention the testData in the config.properties file and fetch it
 
 ## Screenshots and Video Recording
 Each screenshot and video recording for @test for each device and each session is stored in Screenshot and Video folder
