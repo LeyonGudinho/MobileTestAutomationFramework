@@ -32,7 +32,8 @@ You can mentioned multiple test blocks with different devices configurations in 
 
 ## Screenshots and Video Recording
 Each screenshot and video recording for @test for each device and each session is stored in Screenshot and Video folder
-    `videos ->   device name -> data time -> testMethod name`
+
+    videos ->   device name -> data time -> testMethod name
     
 ## Reporting
 Test run results are captured in extend reports along with screnshot or each page and assertion performed (using custom Assertion)
