@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160557" started-at="2023-05-29T02:36:07 IST" finished-at="2023-05-29T02:38:48 IST">
+    <groups>
+    </groups>
+    <test name="Oneplus 9 Pro" duration-ms="141461" started-at="2023-05-29T02:36:07 IST" finished-at="2023-05-29T02:38:29 IST">
+      <class name="tests.GeneralStoreTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="beforeTest" is-config="true" duration-ms="31004" started-at="2023-05-29T02:36:09 IST" finished-at="2023-05-29T02:36:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.0.104:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OnePlus 9 pro]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7181ae3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="VerifyProductPurchase" duration-ms="50561" started-at="2023-05-29T02:36:40 IST" data-provider="VerifyProductPurchaseDataProvider" finished-at="2023-05-29T02:37:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nike SFB Jungle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="afterMethod" is-config="true" duration-ms="1752" started-at="2023-05-29T02:37:31 IST" finished-at="2023-05-29T02:37:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchase status=SUCCESS method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7181ae3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="beforeTest" is-config="true" duration-ms="28635" started-at="2023-05-29T02:37:33 IST" finished-at="2023-05-29T02:38:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.0.104:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OnePlus 9 pro]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7181ae3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="VerifyProductPurchaseFailing" duration-ms="24552" started-at="2023-05-29T02:38:01 IST" finished-at="2023-05-29T02:38:26 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [2]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testutils.Assertion.assertEquals(Assertion.java:22)
+at pages.ProductPage.verifyCartItemCount(ProductPage.java:58)
+at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:126)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchaseFailing -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7181ae3f]" name="afterMethod" is-config="true" duration-ms="1862" started-at="2023-05-29T02:38:27 IST" finished-at="2023-05-29T02:38:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchaseFailing status=FAILURE method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7181ae3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.GeneralStoreTest -->
+    </test> <!-- Oneplus 9 Pro -->
+    <test name="Samsung M31" duration-ms="160557" started-at="2023-05-29T02:36:07 IST" finished-at="2023-05-29T02:38:48 IST">
+      <class name="tests.GeneralStoreTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="beforeTest" is-config="true" duration-ms="25708" started-at="2023-05-29T02:36:09 IST" finished-at="2023-05-29T02:36:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZ8N71N5TZB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung M31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="VerifyProductPurchase" duration-ms="57510" started-at="2023-05-29T02:36:35 IST" data-provider="VerifyProductPurchaseDataProvider" finished-at="2023-05-29T02:37:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nike SFB Jungle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="afterMethod" is-config="true" duration-ms="10429" started-at="2023-05-29T02:37:33 IST" finished-at="2023-05-29T02:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchase status=SUCCESS method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="beforeTest" is-config="true" duration-ms="25145" started-at="2023-05-29T02:37:43 IST" finished-at="2023-05-29T02:38:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZ8N71N5TZB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung M31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7bc1a03d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="VerifyProductPurchaseFailing" duration-ms="30652" started-at="2023-05-29T02:38:08 IST" finished-at="2023-05-29T02:38:39 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [2]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testutils.Assertion.assertEquals(Assertion.java:22)
+at pages.ProductPage.verifyCartItemCount(ProductPage.java:58)
+at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:126)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchaseFailing -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@7bc1a03d]" name="afterMethod" is-config="true" duration-ms="7974" started-at="2023-05-29T02:38:40 IST" finished-at="2023-05-29T02:38:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchaseFailing status=FAILURE method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@7bc1a03d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.GeneralStoreTest -->
+    </test> <!-- Samsung M31 -->
+  </suite> <!-- Suite -->
+</testng-results>

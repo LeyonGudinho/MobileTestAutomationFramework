@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_OnePlus 9 pro\2023-05-29_00-50-10\GeneralStoreTest\VerifyProductPurchaseFailing.png'> <img src='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_OnePlus 9 pro\2023-05-29_00-50-10\GeneralStoreTest\VerifyProductPurchaseFailing.png' height='400' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_Samsung M31\2023-05-29_00-50-42\GeneralStoreTest\VerifyProductPurchaseFailing.png'> <img src='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_Samsung M31\2023-05-29_00-50-42\GeneralStoreTest\VerifyProductPurchaseFailing.png' height='400' width='400'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="261787" started-at="2023-05-29T00:47:38 IST" finished-at="2023-05-29T00:52:00 IST">
+    <groups>
+    </groups>
+    <test name="Oneplus 9 Pro" duration-ms="208984" started-at="2023-05-29T00:47:38 IST" finished-at="2023-05-29T00:51:07 IST">
+      <class name="tests.GeneralStoreTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="beforeTest" is-config="true" duration-ms="51979" started-at="2023-05-29T00:47:48 IST" finished-at="2023-05-29T00:48:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.0.104:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OnePlus 9 pro]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="VerifyProductPurchase" duration-ms="73148" started-at="2023-05-29T00:48:40 IST" data-provider="VerifyProductPurchaseDataProvider" finished-at="2023-05-29T00:49:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nike SFB Jungle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="afterMethod" is-config="true" duration-ms="4600" started-at="2023-05-29T00:49:53 IST" finished-at="2023-05-29T00:49:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchase status=SUCCESS method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="beforeTest" is-config="true" duration-ms="38539" started-at="2023-05-29T00:49:58 IST" finished-at="2023-05-29T00:50:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.0.104:5555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OnePlus 9 pro]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@646007f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="VerifyProductPurchaseFailing" duration-ms="23033" started-at="2023-05-29T00:50:36 IST" finished-at="2023-05-29T00:51:00 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: OnePlus 9 pro, fullReset: true, platformName: android, udid: 192.168.0.104:5555}, deviceApiLevel: 33, deviceManufacturer: OnePlus, deviceModel: LE2121, deviceName: 192.168.0.104:5555, deviceScreenDensity: 560, deviceScreenSize: 1440x3216, deviceUDID: 192.168.0.104:5555, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 128, takesScreenshot: true, udid: 192.168.0.104:5555, viewportRect: {height: 2960, left: 0, top: 128, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 70402cc6-5e75-47e5-84cf-f894a47c9a65
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3"));}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: OnePlus 9 pro, fullReset: true, platformName: android, udid: 192.168.0.104:5555}, deviceApiLevel: 33, deviceManufacturer: OnePlus, deviceModel: LE2121, deviceName: 192.168.0.104:5555, deviceScreenDensity: 560, deviceScreenSize: 1440x3216, deviceUDID: 192.168.0.104:5555, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 128, takesScreenshot: true, udid: 192.168.0.104:5555, viewportRect: {height: 2960, left: 0, top: 128, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 70402cc6-5e75-47e5-84cf-f894a47c9a65
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3"));}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at pages.ProductPage.addProductToCart(ProductPage.java:50)
+at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_OnePlus 9 pro\2023-05-29_00-50-10\GeneralStoreTest\VerifyProductPurchaseFailing.png'> <img src='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_OnePlus 9 pro\2023-05-29_00-50-10\GeneralStoreTest\VerifyProductPurchaseFailing.png' height='400' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchaseFailing -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@646007f4]" name="afterMethod" is-config="true" duration-ms="5979" started-at="2023-05-29T00:51:01 IST" finished-at="2023-05-29T00:51:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchaseFailing status=FAILURE method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@646007f4] output=This is the sample screenshot]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.GeneralStoreTest -->
+    </test> <!-- Oneplus 9 Pro -->
+    <test name="Samsung M31" duration-ms="261785" started-at="2023-05-29T00:47:38 IST" finished-at="2023-05-29T00:52:00 IST">
+      <class name="tests.GeneralStoreTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="beforeTest" is-config="true" duration-ms="43129" started-at="2023-05-29T00:47:48 IST" finished-at="2023-05-29T00:48:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZ8N71N5TZB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung M31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@51b279c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="VerifyProductPurchase" duration-ms="84945" started-at="2023-05-29T00:48:31 IST" data-provider="VerifyProductPurchaseDataProvider" finished-at="2023-05-29T00:49:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nike SFB Jungle]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General Store]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="afterMethod" is-config="true" duration-ms="38385" started-at="2023-05-29T00:49:56 IST" finished-at="2023-05-29T00:50:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchase status=SUCCESS method=GeneralStoreTest.VerifyProductPurchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.GeneralStoreTest@51b279c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="beforeTest" is-config="true" duration-ms="24517" started-at="2023-05-29T00:50:35 IST" finished-at="2023-05-29T00:50:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RZ8N71N5TZB]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Samsung M31]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@51b279c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="VerifyProductPurchaseFailing" duration-ms="29723" started-at="2023-05-29T00:50:59 IST" finished-at="2023-05-29T00:51:29 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: Samsung M31, fullReset: true, platformName: android, udid: RZ8N71N5TZB}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M315F, deviceName: RZ8N71N5TZB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8N71N5TZB, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 78, takesScreenshot: true, udid: RZ8N71N5TZB, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 543883b6-2945-4647-a9ce-66c078610e36
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3"));}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: Samsung M31, fullReset: true, platformName: android, udid: RZ8N71N5TZB}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M315F, deviceName: RZ8N71N5TZB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8N71N5TZB, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 78, takesScreenshot: true, udid: RZ8N71N5TZB, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 543883b6-2945-4647-a9ce-66c078610e36
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3"));}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at pages.ProductPage.addProductToCart(ProductPage.java:50)
+at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:750)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_Samsung M31\2023-05-29_00-50-42\GeneralStoreTest\VerifyProductPurchaseFailing.png'> <img src='C:\Users\Lenovo\eclipse-workspace\GeneralStoreMobile\Screenshots\Android_Samsung M31\2023-05-29_00-50-42\GeneralStoreTest\VerifyProductPurchaseFailing.png' height='400' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyProductPurchaseFailing -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.GeneralStoreTest@51b279c9]" name="afterMethod" is-config="true" duration-ms="30116" started-at="2023-05-29T00:51:30 IST" finished-at="2023-05-29T00:52:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyProductPurchaseFailing status=FAILURE method=GeneralStoreTest.VerifyProductPurchaseFailing()[pri:0, instance:tests.GeneralStoreTest@51b279c9] output=This is the sample screenshot]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.GeneralStoreTest -->
+    </test> <!-- Samsung M31 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 282.952 s <<< FAILURE! - in TestSuite
+tests.GeneralStoreTest.VerifyProductPurchaseFailing  Time elapsed: 2.303 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: OnePlus 9 pro, fullReset: true, platformName: android, udid: 192.168.0.104:5555}, deviceApiLevel: 33, deviceManufacturer: OnePlus, deviceModel: LE2121, deviceName: 192.168.0.104:5555, deviceScreenDensity: 560, deviceScreenSize: 1440x3216, deviceUDID: 192.168.0.104:5555, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 128, takesScreenshot: true, udid: 192.168.0.104:5555, viewportRect: {height: 2960, left: 0, top: 128, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 70402cc6-5e75-47e5-84cf-f894a47c9a65
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3	"));}
+	at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:122)
+
+tests.GeneralStoreTest.VerifyProductPurchaseFailing  Time elapsed: 30.865 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-SRI8GR7', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_351'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., databaseEnabled: false, desired: {app: C:\Users\Lenovo\eclipse-wor..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverExecutable: C:\Users\Lenovo\eclipse-wor..., deviceName: Samsung M31, fullReset: true, platformName: android, udid: RZ8N71N5TZB}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M315F, deviceName: RZ8N71N5TZB, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8N71N5TZB, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 78, takesScreenshot: true, udid: RZ8N71N5TZB, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 543883b6-2945-4647-a9ce-66c078610e36
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("PG 3	"));}
+	at tests.GeneralStoreTest.VerifyProductPurchaseFailing(GeneralStoreTest.java:122)
+

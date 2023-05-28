@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="base.TestListener" />
+	</listeners>
+	
+<!--	Real Device   -->	
+	<test name="Oneplus 9 Pro" parallel="tests" thread-count="2">
+		<parameter name="emulator" value="false" />
+		<parameter name="port" value= "4723"></parameter>
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="192.168.0.104:5555" />
+		<parameter name="deviceName" value="OnePlus 9 pro" />
+		<classes>
+			<class name="tests.GeneralStoreTest" />
+		</classes>
+	</test>
+	<test name="Samsung M31">
+		<parameter name="emulator" value="false" />
+		<parameter name="port" value= "4724"></parameter>		
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="RZ8N71N5TZB" />
+		<parameter name="deviceName" value="Samsung M31" />
+		<!--<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="11031" />-->
+		<classes>
+			<class name="tests.GeneralStoreTest" />
+		</classes>
+	</test>
+	
+<!--	Emulator   -->
+<!--
+	<test name="Emulator">
+		<parameter name="emulator" value="true" />
+		<parameter name="port" value= "4725"></parameter>		
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="emulator-5554" />
+		<parameter name="deviceName" value="my_API_33" />
+		<parameter name="systemPort" value="10001" />
+		<parameter name="chromeDriverPort" value="11031" />
+		<classes>
+			<class name="tests.GeneralStoreTest" />
+		</classes>
+	</test>-->
+	<!--<test name="iPhone11">
+        <listeners>
+            <listener class-name="base.TestListener" />
+        </listeners>
+        <parameter name="platformName" value="iOS" />
+        <parameter name="udid" value="63E2D54C-CA63-4ECA-89C2-61F2F41EE2F7" />
+        <parameter name="deviceName" value="iPhone 12 Pro Max" />
+        <parameter name="wdaLocalPort" value="10001" />
+        <parameter name="webkitDebugProxyPort" value="11001" />
+        <classes>
+            <class name="com.qa.tests.LoginTests"/>
+            <class name="com.qa.tests.ProductTests"/>
+        </classes>
+    </test>-->
+</suite> <!--
+Suite -->
