@@ -1,4 +1,4 @@
-# MobileTestAutomationFramework
+# Mobile Test Automation Framework
 
 ## Pre-requesities:
 1. Make sure you have Node.js and appium node mudule installed
