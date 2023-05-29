@@ -123,7 +123,7 @@ public class GeneralStoreTest extends BaseTest {
 		cartValue = cartValue + productPrice;
 		itemCount++;
 
-		productPage.verifyCartItemCount(3);
+		productPage.verifyCartItemCount(3);  //Intentionally failing it here
 		productPage.goToCart();
 	}
 }
