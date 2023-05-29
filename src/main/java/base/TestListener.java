@@ -54,9 +54,8 @@ public class TestListener implements ITestListener {
 
 		StringWriter sw = new StringWriter();
 		result.getThrowable().printStackTrace(new PrintWriter(sw));
-		String stacktrace = sw.toString(); // Write the stack trace to extent reports test.log(LogStatus.INFO, "<span
-											// class='label failure'>" + result.getName() + "</span>",
-											// "<pre>Stacktrace:\n" + stacktrace + "</pre>");
+		String stacktrace = sw.toString(); /
+			
 		boolean b = sw.toString().contains("openqa");
 		ExtentReport.getTest().fail(
 				"<script type=\"text/javascript\">function myFunc(element) {if (element.style.height === 'auto') {element.style.height = '50px';} else {element.style.height = 'auto';}}</script></script>"
